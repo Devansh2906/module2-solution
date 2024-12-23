@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.section {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  width: 300px; /* Adjust width as needed */
+  background-color: #f0f0f0; /* Light gray background */
+  position: relative; /* Necessary for absolute positioning of titles */
+}
+
+.section h2 {
+  position: absolute;
+  top: 10px; /* Adjust top position as needed */
+  right: 10px; /* Adjust right position as needed */
+  background-color: #e6e6e6; /* Light gray background for title */
+  color: #333; /* Dark gray heading color */
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.section p {
+  color: #666; /* Darker gray text color */
+}
+
+.section.chicken {
+  background-color: #ffe6e6; /* Light pink for Chicken */
+}
+
+.section.beef {
+  background-color: #e6f0ff; /* Light blue for Beef */
+}
+
+.section.sushi {
+  background-color: #f0ffe6; /* Light green for Sushi */
+}
+</style>
+</head>
+<body>
+
+<h1>Our Menu</h1>
+
+<div class="container">
+  <div class="section chicken">
+    <h2>Chicken</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+
+  <div class="section beef">
+    <h2>Beef</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+
+  <div class="section sushi">
+    <h2>Sushi</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+</div>
+
+</body>
+</html>
